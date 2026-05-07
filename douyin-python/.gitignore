@@ -1,0 +1,6 @@
+.douyin-profile/
+node_modules/
+out/
+
+*.log
+*.tmp
