@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="缺陷分析 Agent 截图示意">
+  <rect width="920" height="560" fill="#f8fafc"/>
+  <rect x="42" y="38" width="836" height="484" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+  <text x="72" y="88" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#182230">缺陷分析 Agent</text>
+  <text x="72" y="122" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Bug 描述 + 日志 + 复现步骤 -> 缺陷归类与排查建议</text>
+  <rect x="72" y="158" width="250" height="270" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="96" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#c2410c">输入</text>
+  <text x="96" y="236" font-family="Arial, sans-serif" font-size="15" fill="#334155">Bug 标题</text>
+  <text x="96" y="268" font-family="Arial, sans-serif" font-size="15" fill="#334155">复现步骤</text>
+  <text x="96" y="300" font-family="Arial, sans-serif" font-size="15" fill="#334155">日志片段</text>
+  <text x="96" y="332" font-family="Arial, sans-serif" font-size="15" fill="#334155">影响版本</text>
+  <rect x="364" y="158" width="192" height="270" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="392" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Agent 分析</text>
+  <text x="392" y="240" font-family="Arial, sans-serif" font-size="15" fill="#334155">信息抽取</text>
+  <text x="392" y="276" font-family="Arial, sans-serif" font-size="15" fill="#334155">模块判断</text>
+  <text x="392" y="312" font-family="Arial, sans-serif" font-size="15" fill="#334155">影响评估</text>
+  <text x="392" y="348" font-family="Arial, sans-serif" font-size="15" fill="#334155">补充问题</text>
+  <rect x="598" y="158" width="250" height="270" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="622" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">输出</text>
+  <text x="622" y="236" font-family="Arial, sans-serif" font-size="15" fill="#334155">缺陷分类</text>
+  <text x="622" y="268" font-family="Arial, sans-serif" font-size="15" fill="#334155">排查方向</text>
+  <text x="622" y="300" font-family="Arial, sans-serif" font-size="15" fill="#334155">JIRA 字段草稿</text>
+  <text x="622" y="332" font-family="Arial, sans-serif" font-size="15" fill="#334155">风险提醒</text>
+  <rect x="72" y="454" width="776" height="42" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="96" y="481" font-family="Arial, sans-serif" font-size="15" fill="#991b1b">核心能力：缺陷归纳、日志线索整理、人工确认、问题闭环</text>
+</svg>
