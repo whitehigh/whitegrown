@@ -26,10 +26,10 @@ AI Agent / 自动化测试作品集入口。
 
 ### 1. 测试用例生成 Agent
 
-输入需求描述，输出测试点、用例步骤、预期结果、边界场景和风险清单。适合用于复杂功能测试前的用例初稿生成。
+输入需求文档或功能描述，输出测试点、测试用例、边界场景和风险清单。适合用于复杂功能测试前的用例初稿生成。
 
-- 状态：规划 / 原型中
-- 关键词：LLM、Prompt、结构化输出、测试设计、边界场景
+- 状态：本地 demo 可运行
+- 关键词：需求解析、测试用例生成、结构化输出、测试设计、边界场景
 - 截图：[测试用例生成 Agent](assets/screenshots/testcase-agent.svg)
 - 说明：[docs/projects/testcase-agent.md](docs/projects/testcase-agent.md)
 
@@ -60,7 +60,7 @@ AI Agent / 自动化测试作品集入口。
 
 ## 快速运行
 
-当前仓库提供一个无需第三方依赖的 Python demo，用于演示“需求输入 -> Agent 拆解 -> 测试用例输出”的基本流程。
+当前仓库提供一个无需第三方依赖的 Python demo，用于演示“需求文档输入 -> Agent 拆解 -> 测试用例输出”的基本流程。
 
 ```bash
 python3 examples/testcase_agent_demo.py
@@ -72,9 +72,22 @@ python3 examples/testcase_agent_demo.py
 python3 examples/testcase_agent_demo.py "商城支持购买月卡，支付成功后立即发放奖励，重复购买需要延长有效期"
 ```
 
+从需求文档读取：
+
+```bash
+python3 examples/testcase_agent_demo.py --file examples/sample_requirement.md
+```
+
+输出 JSON，方便后续接入 Web 页面、CI 或测试管理平台：
+
+```bash
+python3 examples/testcase_agent_demo.py --file examples/sample_requirement.md --format json
+```
+
 运行结果会输出：
 
 - 功能测试点
+- 测试用例
 - 边界场景
 - 风险清单
 - 回归建议
