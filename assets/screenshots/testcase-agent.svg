@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="测试用例生成 Agent 截图示意">
+  <rect width="920" height="560" fill="#f7fafc"/>
+  <rect x="40" y="36" width="840" height="488" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+  <text x="72" y="88" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#182230">测试用例生成 Agent</text>
+  <text x="72" y="122" font-family="Arial, sans-serif" font-size="16" fill="#64748b">需求输入 -> 功能拆解 -> 用例输出 -> 人工确认</text>
+  <rect x="72" y="158" width="300" height="250" rx="10" fill="#eef6ff" stroke="#bfdbfe"/>
+  <text x="96" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">输入需求</text>
+  <text x="96" y="236" font-family="Arial, sans-serif" font-size="16" fill="#334155">商城支持购买月卡</text>
+  <text x="96" y="268" font-family="Arial, sans-serif" font-size="16" fill="#334155">支付成功后发放奖励</text>
+  <text x="96" y="300" font-family="Arial, sans-serif" font-size="16" fill="#334155">重复购买延长有效期</text>
+  <path d="M398 284h78" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M462 268l18 16-18 16" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="508" y="158" width="300" height="250" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="532" y="196" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">结构化输出</text>
+  <circle cx="542" cy="234" r="5" fill="#16a34a"/>
+  <text x="560" y="240" font-family="Arial, sans-serif" font-size="15" fill="#334155">功能测试点</text>
+  <circle cx="542" cy="270" r="5" fill="#16a34a"/>
+  <text x="560" y="276" font-family="Arial, sans-serif" font-size="15" fill="#334155">边界条件</text>
+  <circle cx="542" cy="306" r="5" fill="#16a34a"/>
+  <text x="560" y="312" font-family="Arial, sans-serif" font-size="15" fill="#334155">风险清单</text>
+  <circle cx="542" cy="342" r="5" fill="#16a34a"/>
+  <text x="560" y="348" font-family="Arial, sans-serif" font-size="15" fill="#334155">回归建议</text>
+  <rect x="72" y="442" width="736" height="42" rx="8" fill="#ecfdf5" stroke="#bbf7d0"/>
+  <text x="96" y="469" font-family="Arial, sans-serif" font-size="15" fill="#166534">核心能力：需求拆解、Prompt 设计、结构化输出、QA 风险控制</text>
+</svg>
