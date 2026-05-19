@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-label="发布检查 Agent 截图示意">
+  <rect width="920" height="560" fill="#f8fafc"/>
+  <rect x="44" y="38" width="832" height="484" rx="14" fill="#ffffff" stroke="#d8dee8"/>
+  <text x="74" y="88" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#182230">发布检查 Agent</text>
+  <text x="74" y="122" font-family="Arial, sans-serif" font-size="16" fill="#64748b">版本发布前检查包体、资源、配置、回归结果和风险项</text>
+  <rect x="82" y="168" width="756" height="250" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="126" cy="222" r="14" fill="#22c55e"/>
+  <path d="M119 222l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="158" y="228" font-family="Arial, sans-serif" font-size="17" fill="#334155">包体版本与渠道配置已确认</text>
+  <circle cx="126" cy="274" r="14" fill="#22c55e"/>
+  <path d="M119 274l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="158" y="280" font-family="Arial, sans-serif" font-size="17" fill="#334155">资源部署与热更清单已验证</text>
+  <circle cx="126" cy="326" r="14" fill="#f59e0b"/>
+  <text x="121" y="332" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">!</text>
+  <text x="158" y="332" font-family="Arial, sans-serif" font-size="17" fill="#334155">海外地区配置存在差异，等待人工确认</text>
+  <circle cx="126" cy="378" r="14" fill="#22c55e"/>
+  <path d="M119 378l5 5 10-12" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="158" y="384" font-family="Arial, sans-serif" font-size="17" fill="#334155">回归测试结果已归档</text>
+  <rect x="82" y="454" width="756" height="42" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="106" y="481" font-family="Arial, sans-serif" font-size="15" fill="#1d4ed8">核心能力：Checklist、人工确认、发布风险控制、海外本地化 QA</text>
+</svg>
